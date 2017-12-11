@@ -12,8 +12,8 @@ from pandas import Series, DataFrame
 
 #train = pd.read_csv("D:/SPMD-DAS1/triptime_features_all.csv")
 #label = pd.read_csv("D:/SPMD-DAS1/triptime_with_brake_in_city_all.csv")
-features_train = pd.read_csv("D:/Taxi trip time/in_city/Sample_section_80_75_ignore_features.csv")
-label_train = pd.read_csv("D:/Taxi trip time/in_city/Sample_section_80_75_ignore_triptime.csv")
+features_train = pd.read_csv("D:/Taxi trip time/in_city/Sample_section_90_80_ignore_features.csv")
+label_train = pd.read_csv("D:/Taxi trip time/in_city/Sample_section_90_80_ignore_triptime.csv")
 features_test = pd.read_csv("D:/Taxi trip time/in_city/testing_2500_in_city_no_outlier_features.csv")
 label_test = pd.read_csv("D:/Taxi trip time/in_city/testing_2500_in_city_no_outlier_triptime.csv")
 
@@ -36,7 +36,7 @@ test_array = scaler.transform(test_array)
 #trainarray = normalizer.transform(trainarray)
 
 #print trainarray_scaled
-#�۰ʤ���training��testing set
+#¦Û°Ê¤À³Îtraining¤Îtesting set
 #X_train, X_test, y_train, y_test = cross_validation.train_test_split(trainarray, labelfinal, test_size=0.2, random_state =0)
 #c_range = np.logspace(0, 6, 10)
 #param_grid=dict(C=c_range
